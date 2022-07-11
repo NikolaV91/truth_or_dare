@@ -1,0 +1,127 @@
+body {
+    height: 80vh;
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#languageDiv {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.languages {
+    width: 150px;
+    margin-bottom: 2vh;
+}
+
+#btnDiv {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#button1:active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 305px;
+    height: 51px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: red;
+}
+
+#button2:active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 305px;
+    height: 51px;
+    background-color: blue;
+}
+
+#engLang:active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: blue;
+}
+
+#serbLang:active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: blue;
+}
+
+#label {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    background-color: antiquewhite;
+    border: black;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#labelNaziv {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.toggleClass{
+    background-color: aqua;
+    color: darkgreen;
+}
+
+#languageLabel{
+    color: rgb(5, 255, 193);
+}
